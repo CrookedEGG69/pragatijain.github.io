@@ -67,7 +67,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 1</em></p>
+<p style="text-align: center;"><em>Figure 1</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"start":3} -->
@@ -75,7 +75,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 2</em></p>
+<p style="text-align: center;"><em>Figure 2</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"start":4} -->
@@ -87,18 +87,14 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 3</em></p>
+<p style="text-align: center;"><em>Figure 3</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"start":5} -->
 <ol start="5"><li>Select <strong>Combinational Analysis </strong>from the drop down menu to launch the <strong>BooleanLogicTable</strong> screen (refer Figure 4).<img src="https://docs.google.com/drawings/u/0/d/svfqNcxg4IvosjkprY-7UzQ/image?w=624&amp;h=264&amp;rev=40&amp;ac=1&amp;parent=1qg7jiPV2dsVMSmLoZnCd2xqTZYIClv6KqO5Ywpa5f10" width="624" height="264"></li></ol>
-<!-- /wp:list -->
 
-<!-- wp:paragraph -->
-<p><em>Figure 4</em></p>
-<!-- /wp:paragraph -->
+<p style="text-align: center;"><em>Figure 4</em></p>
 
-<!-- wp:list {"ordered":true,"start":6} -->
 <ol start="6"><li>Enter <strong>S3, S2, S1, S0</strong> in the input text fields as shown in Figure 5.</li></ol>
 <!-- /wp:list -->
 
@@ -107,7 +103,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 5</em></p>
+<p style="text-align: center;"><em>Figure 5</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"start":7} -->
@@ -119,7 +115,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 6</em></p>
+<p style="text-align: center;"><em>Figure 6</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"start":8} -->
@@ -131,7 +127,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 7</em></p>
+<p style="text-align: center;"><em>Figure 7</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"start":9} -->
@@ -143,7 +139,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 8</em></p>
+<p style="text-align: center;"><em>Figure 8</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"start":10} -->
@@ -155,7 +151,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 7</em></p>
+<p style="text-align: center;"><em>Figure 9</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -163,7 +159,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Refer Figure 8 to connect the respective input wires for corresponding labels of the combinational circuit to the respective outputs of the seven segment display to complete the circuit.</p>
+<p>Refer Figure 10 to connect the respective input wires for corresponding labels of the combinational circuit to the respective outputs of the seven segment display to complete the circuit.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image -->
@@ -171,23 +167,26 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><em>Figure 8</em></p>
+<p style="text-align: center;"><em>Figure 10</em></p>
 <!-- /wp:paragraph -->
+<p>The below video demonstrates a 7 segment decoder simulated circuit built within the CircuitVerse simulator.</p>
+        
+       <div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/tGTy4P-RxP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <!-- wp:heading -->
 <h2>Analyse the Circuit</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Toggle different input values and validate the truth table (refer Table 1) to verify the implemented seven segment decoder circuit.&nbsp;</p>
+<p>Toggle different input values (S3, S2, S1, S0) and validate the truth table (refer Table 1) to verify the implemented seven segment decoder circuit.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A seven segment display component has 8 LED segments inside it and have one end of their pins pulled out of the module as shown in Figure 8. To make an LED of a particular segment glow, relevant segments (labeled as a, b, c, d, e, f, g in Figure 8) must be powered up to represent the numbers from&nbsp; 0 to 9. For instance, for displaying number 1, LEDs b and c must be powered up.&nbsp;</p>
+<p>A seven segment display component has 8 LED segments inside it and has one end of their pins pulled out of the module as shown in Figure 8. To make an LED of a particular segment glow, relevant segments (labeled as a, b, c, d, e, f, g in Figure 10) must be powered up to represent the numbers from&nbsp; 0 to 9. For instance, for displaying number 1, LEDs b and c must be powered up.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If the LED fails to display the right decimal number, refer to Table 3 and Figure 8 and troubleshoot your wiring connections.&nbsp;</p>
+<p>If the LED fails to display the right decimal number, (refer to Table 3 and Figure 10) troubleshoot your wiring connections.&nbsp;</p>
 
 <!-- wp:table -->
 <figure class="wp-block-table">Table 3: 7 Segment Display Pin Configuration<table><tbody><tr><td><strong>Pin Label</strong></td><td><strong>LED</strong></td></tr><tr><td>M</td><td>g</td></tr><tr><td>TL</td><td>f</td></tr><tr><td>T</td><td>a</td></tr><tr><td>TR</td><td>b</td></tr><tr><td>BR</td><td>c</td></tr><tr><td>B</td><td>d</td></tr><tr><td>BL</td><td>e</td></tr></tbody></table></figure>
