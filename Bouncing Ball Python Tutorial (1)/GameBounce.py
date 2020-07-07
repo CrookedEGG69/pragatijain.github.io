@@ -31,7 +31,7 @@ class Ball:
                 canvas.after(1000, self.reappear)
                 if score==2:
                     self.hit_bottom=True
-                    won_text = canvas.create_text(50, 100, anchor="nw", font=("Helvetica", 40), fill="Black", text="Awesome Dude!You Played well")     
+                    won_text = canvas.create_text(50, 100, anchor="nw", font=("Helvetica", 40), fill="Black", text="You Played Well!")     
                 return True
         return False
 
@@ -55,7 +55,6 @@ class Ball:
             self.x = 3-bouncespeed[0]
         if p[2] >= self.canvas_width:
             self.x=-3-bouncespeed[0]
-
 
 class Paddle:
     def __init__(self, p_canvas, p_color):
@@ -90,14 +89,8 @@ canvas.create_rectangle(0,290, 500, 400, width=0, fill="cornflowerblue")
 score = 0
 score_text = canvas.create_text(14, 10, anchor="nw", font=("Helvetica", 14), fill="cornflowerblue", text="Score: "+str(score))
 
-photo = PhotoImage(file="https://gph.is/g/aevP9yX")
-brickwall=Label(root, image=photo)
-brickwall.photo=photo
-brickwall.pack()
-
 canvas.pack()
 tk.update()
-
 
 paddle=Paddle(canvas, "blue")
 ball=Ball(canvas, paddle, "red")
