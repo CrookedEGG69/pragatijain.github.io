@@ -1,6 +1,3 @@
-
-
-
 # Google Season of Docs(GSoD) 2020 CircuitVerse Online Documentation
 
 _By PRAGATI CHAPLOT JAIN_
